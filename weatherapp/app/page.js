@@ -13,7 +13,7 @@ const WeatherPage = () => {
     setLoading(true);
     setError(null);
 
-    const apiKey = 'WXTNRTQE5SVRKHBA5U24VLAJW'; // Replace with your API key
+    const apiKey = 'WXTNRTQE5SVRKHBA5U24VLAJW';
     const baseUrl = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline`;
     const unitGroup = 'metric';
     const contentType = 'json';
